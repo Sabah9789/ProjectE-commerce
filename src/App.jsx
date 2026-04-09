@@ -27,7 +27,7 @@ export default function App() {
       <div
         className="   h-dvh  bg-cover bg-fixed"
         style={{
-          backgroundImage: "url('public/pic/1oop.png')",
+          backgroundImage: "url('picture/1oop.png')",
           // opacity: 0.8,
         }}
       >
@@ -145,7 +145,7 @@ export default function App() {
           <p>With Elementor</p>
           <p className="text-bold text-[30px]">Live Page Builder</p>
           <img
-            src="public/pic/icon_heading.png"
+            src="picture/icon_heading.png"
             className=" object-cover "
           />
           <p className="text-center">
@@ -160,7 +160,7 @@ export default function App() {
           <p>Homepage Amazing</p>
           <p className="text-bold text-[30px]">Installable demo homepages</p>
           <img
-            src="public/pic/icon_heading.png"
+            src="picture/icon_heading.png"
             className=" object-cover "
           />
           <p className="text-center">
@@ -174,7 +174,7 @@ export default function App() {
           <div className="h-full w-[50%]  px-30 ">
             <img
               className="h-full"
-              src="public/pic/undraw_makeup-artist_0xtr.svg"
+              src="picture/undraw_makeup-artist_0xtr.svg"
             />
           </div>
           <div></div>
@@ -200,7 +200,7 @@ export default function App() {
           {/* الصورة */}
           <div className="w-50 h-40  overflow-hidden  rounded-xl ">
             <img
-              src="public/pic/land-slider-img-3.png"
+              src="picture/land-slider-img-3.png"
               className="w-full h-full object-cover "
             />
           </div>
