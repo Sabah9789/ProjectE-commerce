@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
+body {
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+}
+
+
+/* الخطين */
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    top: 65px;
+    left: 400px;
+    width: 600px;
+}
+@theme {
+  --shadow-Me:  rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
