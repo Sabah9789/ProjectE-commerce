@@ -14,3 +14,32 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+# Swiper Component
+
+Generated with [Swiper Studio](https://studio.swiperjs.com)
+
+## Installation
+
+First, install `swiper` to your React project:
+
+```
+npm i swiper
+```
+
+Then, copy contents of this folder to your project components folder.
+
+## Usage
+
+Import `MySwiper.jsx` in the component (or page) where you want to use it, e.g.:
+
+```jsx
+import React from "react";
+import MySwiper from "path/to/MySwiper.jsx";
+
+export default function App() {
+  return <MySwiper />;
+}
+```
